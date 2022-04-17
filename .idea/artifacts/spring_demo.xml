@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring_demo">
+    <output-path>$PROJECT_DIR$/out/artifacts/spring_demo</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-demo-maven" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jstl-lib" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.19" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.19" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.19" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.19" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.19" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.19" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.19" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.19" />
+          <element id="library" level="project" name="Maven: jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:1.2.7" />
+          <element id="library" level="project" name="Maven: org.glassfish.web:jakarta.servlet.jsp.jstl:1.2.6" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="spring-demo-maven/web/Web" />
+    </root>
+  </artifact>
+</component>
